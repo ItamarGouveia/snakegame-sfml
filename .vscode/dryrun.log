@@ -1,9 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/itamar/c++/sfml/snakegame-sfml'
-g++ -c -g -O0 -Wall -lsfml-graphics -lsfml-window -lsfml-system main.cpp -o main.o
-g++ -c -g -O0 -Wall -lsfml-graphics -lsfml-window -lsfml-system snake.cpp -o snake.o
-g++ -o a.out main.o snake.o -g -O0 -Wall -lsfml-graphics -lsfml-window -lsfml-system
-rm *.o
-./a.out
-make: Leaving directory '/home/itamar/c++/sfml/snakegame-sfml'
- 
